@@ -1,3 +1,5 @@
+#! /usr/bin/env ruby
+
 unless ARGV.length == 2 or ARGV.length == 4; puts "app <scriptname> <appname> [-i iconfile]"; exit 0; end
 
 require "fileutils"
